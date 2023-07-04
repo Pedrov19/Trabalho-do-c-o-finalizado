@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>PetWalk</title>
+      <link rel="stylesheet" href="pet.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <link rel="icon" type="image/x-icon" href="favicon.ico.png">  
+    </head>
+   <body>
+      <div class="container">
+         
+         <header>Cadastro - Pet</header>
+         <div class="progress-bar">
+            <div class="step">
+               <p>
+                  Info
+               </p>
+               <div class="bullet">
+                  <span>1</span>
+               </div>
+               <div class="check fas fa-check"></div>
+            </div>
+            <div class="step">
+               <p>
+                  Animal
+               </p>
+               <div class="bullet">
+                  <span>2</span>
+               </div>
+               <div class="check fas fa-check"></div>
+            </div>
+            <div class="step">
+               <p>
+                  Add
+               </p>
+               <div class="bullet">
+                  <span>3</span>
+               </div>
+               <div class="check fas fa-check"></div>
+            </div>
+            <div class="step">
+               <p>
+                  Comp
+               </p>
+               <div class="bullet">
+                  <span>4</span>
+               </div>
+               <div class="check fas fa-check"></div>
+            </div>
+         </div>
+         <div class="form-outer">
+            <form action="#">
+               <div class="page slide-page">
+                  <div class="title">
+                     Nome
+                  </div>
+                  <div class="field">
+                     <div class="label">
+                        Nome do Animal
+                     </div>
+                     <input type="text">
+                  </div>
+                  <div class="field">
+                     <div class="label">
+                        Apelido
+                     </div>
+                     <input type="text">
+                  </div>
+                  <div class="field">
+                     <button class="firstNext next">Próximo</button>
+                  </div>
+               </div>
+               <div class="page">
+                  <div class="title">
+                     Animal
+                  </div>
+                  <div class="field">
+                     <div class="label">
+                        Tipo
+                     </div>
+                     <select>
+                        <option>Cachorro</option>
+                        <option>Passaro</option>
+                        <option>Gato</option>
+                        <option>Cobra</option>
+                        <option>Tamandua</option>
+                        <option>Capivara</option>                   
+                     </select>
+                     <input type="text">
+                  </div>
+                  <div class="field">
+                     <div class="label">
+                        Raça
+                     </div>
+                     <input type="text">
+                  </div>
+                  <div class="field btns">
+                     <button class="prev-1 prev">Voltar</button>
+                     <button class="next-1 next">Próximo</button>
+                  </div>
+               </div>
+               <div class="page">
+                  <div class="title">
+                     Complementar
+                  </div>
+                  <div class="field">
+                     <div class="label">
+                     Idade
+                     </div>
+                     <input type="number">
+                  </div>
+                  <div class="field">
+                     <div class="label">
+                       Peso
+                     </div>
+                     <input type="number">
+                  </div>
+                  <div class="field">
+                     <div class="label">
+                       Cor
+                     </div>
+                     <input type="text">
+                  </div>
+                  <div class="field btns">
+                     <button class="prev-2 prev">Voltar</button>
+                     <button class="next-2 next">Próximo</button>
+                  </div>
+               </div>
+               <div class="page">
+                  <div class="title">
+                     Aparelho
+                  </div>
+                  <div class="field">
+                     <div class="label">
+                        Codigo do Aparelho
+                     </div>
+                     <input type="number">
+                  </div>
+                  <div class="field">
+                     <div class="label">
+                        Sobre o Animal
+                     </div>
+                     <input type="text">
+                  </div>
+                  <div class="field btns">
+                     <button class="prev-3 prev">Voltar</button>
+                     <button class="btn-link" type="button" onclick="window.location.href='paginaprincipal.html'">Finalizar</button>       
+                  </div>
+               </div>
+            </form>
+         </div>
+      </div>
+      <script src="pet.js"></script>
+   </body>
+</html>
